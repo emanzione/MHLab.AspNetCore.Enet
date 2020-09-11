@@ -29,7 +29,7 @@ jobs:
       run: dotnet test --no-restore --verbosity normal
 
     - name: Publish on NuGet
-      uses: brandedoutcast/publish-nuget@v2.5.5
+      uses: rohith/publish-nuget@v2
       with:
         # Filepath of the project to be packaged, relative to root of repository
-        PROJECT_FILE_PATH: "./MHLab.AspNetCore.Enet"
+        PROJECT_FILE_PATH: "./MHLab.AspNetCore.Enet/MHLab.AspNetCore.Enet.csproj"
