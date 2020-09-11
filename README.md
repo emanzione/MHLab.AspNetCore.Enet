@@ -1,5 +1,8 @@
 # MHLab.AspNetCore.Enet
 
+![Build](https://github.com/manhunterita/MHLab.AspNetCore.Enet/workflows/Build/badge.svg)
+[![Nuget](https://img.shields.io/nuget/v/MHLab.AspNetCore.Enet)](https://www.nuget.org/packages/MHLab.AspNetCore.Enet/)
+
 An extension that allows you to spin an Enet server in your ASP.NET Core application. It's based on the [Stanislav Denisov](https://github.com/nxrighthere)'s awesome work: [ENet-CSharp](https://github.com/nxrighthere/ENet-CSharp).
 
 It's easy to set:
