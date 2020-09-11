@@ -64,7 +64,8 @@ public class ConnectionHandler : IConnectionHandler
 
     public ConnectionHandler(ILogger<ConnectionHandler> logger)
     {
-        /* Here in the constructor you can take the full advantage of the Microsoft Dependency Injection framework. */
+        /* Here in the constructor you can take the full advantage of the 
+        Microsoft Dependency Injection framework. */
         _logger = logger;
     }
 
@@ -90,7 +91,8 @@ public class DisconnectionHandler : IDisconnectionHandler
 
     public DisconnectionHandler(ILogger<DisconnectionHandler> logger)
     {
-        /* Here in the constructor you can take the full advantage of the Microsoft Dependency Injection framework. */
+        /* Here in the constructor you can take the full advantage of the 
+        Microsoft Dependency Injection framework. */
         _logger = logger;
     }
 
@@ -116,7 +118,8 @@ public class TimeoutHandler : ITimeoutHandler
 
     public TimeoutHandler(ILogger<TimeoutHandler> logger)
     {
-        /* Here in the constructor you can take the full advantage of the Microsoft Dependency Injection framework. */
+        /* Here in the constructor you can take the full advantage of the 
+        Microsoft Dependency Injection framework. */
         _logger = logger;
     }
 
@@ -142,7 +145,8 @@ public class PacketHandler : IPacketHandler
 
     public PacketHandler(ILogger<PacketHandler> logger)
     {
-        /* Here in the constructor you can take the full advantage of the Microsoft Dependency Injection framework. */
+        /* Here in the constructor you can take the full advantage of the 
+        Microsoft Dependency Injection framework. */
         _logger = logger;
     }
 
