@@ -5,12 +5,12 @@
     <OutputType>Library</OutputType>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <Version>0.0.3</Version>
+    <Version>0.0.5</Version>
     <Authors>Emanuele Manzione</Authors>
     <Company>MHLab</Company>
     <Description>An extension that allows you to spin an Enet server in your ASP.NET Core application.</Description>
     <PackageTags>enet aspnetcore udp</PackageTags>
-    <AssemblyVersion>0.0.3.0</AssemblyVersion>
+    <AssemblyVersion>0.0.5.0</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>
