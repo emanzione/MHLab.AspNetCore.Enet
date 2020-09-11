@@ -20,7 +20,7 @@ namespace MHLab.AspNetCore.Enet.Servers
         private readonly ITimeoutHandlerContainer _timeoutHandlers;
         private readonly IPacketHandlerContainer _packetHandlers;
 
-        private bool _shouldRun;
+        private volatile bool _shouldRun;
         private Task _serverTask;
 
         public EnetServer(
